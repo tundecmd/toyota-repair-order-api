@@ -1,0 +1,29 @@
+{
+  "name": "toyotarepairorderapi",
+  "version": "1.0.0",
+  "description": "This is an api for toyota repair order",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js"
+  },
+  "keywords": [
+    "api",
+    "toyota",
+    "repair",
+    "order"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-validator": "^6.14.0",
+    "flatted": "^3.2.5",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.14"
+  }
+}
