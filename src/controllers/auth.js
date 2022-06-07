@@ -2,6 +2,10 @@ const User = require("../models/user.js");
 const bcrypt = require("bcrypt");
 var jwt = require('jsonwebtoken');
 
+const generateJwtToken = (_id) => {
+  return jwt.sign({ _id: role })
+};
+
 
 exports.signup = (req, res) => {
   // console.log('1111');
