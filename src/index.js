@@ -8,6 +8,7 @@ const cors = require("cors");
 // routes
 const authRoutes = require("./routes/auth.js");
 const customerOrderFormRoutes = require("./routes/customerOrderForm");
+const partsStockConfirmationRoutes = require("./routes/partsStockConfirmation");
 
 env.config();
 
@@ -18,6 +19,7 @@ app.use(cors())
 // app.use(bodyParser());
 app.use("/api", authRoutes);
 app.use("/api", customerOrderFormRoutes);
+app.use("/api", partsStockConfirmationRoutes);
 
 // app.get('/', (req, res, next) => {
 //   res.status(200).json({

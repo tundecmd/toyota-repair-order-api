@@ -64,4 +64,4 @@ const customerOrderFormSchema = new mongoose.Schema({
 }, { timestamps: true });
 
 
-module.exports = mongoose.model('Cart', customerOrderFormSchema);
+module.exports = mongoose.model('customerOrderForm', customerOrderFormSchema);
