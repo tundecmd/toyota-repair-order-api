@@ -96,7 +96,7 @@ exports.updatePartStockConfirmation = async (req, res) => {
         });
         
         console.log('updatedResult.data', updatedResult.data)
-        // return res.status(updatedResult.status).json(updatedResult.data.value);
+        return res.status(updatedResult.status).json(updatedResult.data.value);
     } catch (error) {
         // console.log('error', error);
         return res.json(error)
